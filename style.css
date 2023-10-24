@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(./assets/bg-desktop.png) no-repeat top center/cover;
+}
+
+body * {
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+#container {
+    width: 1200px;
+    border: 1px solid red;
+    height: 600px;
+    margin: 22px auto;
+}
+
+/*profile*/
+#profile {
+    width: 300px;
+    text-align: center;
+    padding: 24px;
+    border: 1px solid red;
+    gap: 8px;
+    margin: 40px auto 10px;
+}
+
+#profile img {
+    width: 112px;
+}
+
+#profile p {
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 8px;
+}
+
+/* icone de computador */
+#computer-icon {
+    position: absolute;
+    width: 120px;
+    height: 99.847px;
+    border: 1px solid red;
+    background: url(./assets/computer-icon.svg);
+    margin: -80px -390px;
+}
+
+/* switch
+#switch {
+    position: relative;
+    width: 64px;
+
+    margin: 4px auto;
+}
+
+#switch button {
+    width: 32px;
+    height: 32px;
+    background: white url(./assets/img-brasil.svg) no-repeat center;
+    border-radius: 50%;
+
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#switch span {
+    display: block;
+    width: 64px;
+    height: 24px;
+    border-radius: 9999px;
+    border: 1px solid rgba(255, 255, 255, 0.50);
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+} */
+
+/*perguntas do site*/
+#quests {
+    list-style: none;
+
+    display: inline-flex;
+    flex-direction: column;
+    border: 1px solid red;
+    gap: 50px;
+    padding: 10px 40px;
+
+    margin: 0px 50px;
+}
+
+/*answers*/
+#answers {
+    font-size: 14px;
+    width: 900px;
+    position: absolute;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    border: 1px solid red;
+}
+
+/*social links*/
+#social-links {
+    display: flex;
+    width: 130px;
+    border: 1px solid red;
+    justify-content: center;
+    gap: 16px;
+    margin: auto;
+    font-size: 24px;
+}
+
+#social-links a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 10px;
+
+    transition: all .2s;
+    border-radius: 50%;
+}
+
+#social-links a:hover{ 
+    background: rgba(255, 255, 255, 0.20);
+}
